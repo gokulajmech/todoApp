@@ -1,0 +1,144 @@
+
+.back-ground{
+     background-image:url('https://media.istockphoto.com/photos/white-lines-and-spheres-picture-id1135638647?b=1&k=20&m=1135638647&s=170667a&w=0&h=j32QwPBMCmdX9ViKWvitis6N3l3Wl-lBEl1Ut9ImiBk=');
+    background-size: cover;
+    display:flex;
+    height:100vh;
+    align-items: center;
+    justify-content: space-evenly;
+   
+}
+.back-ground input{
+    width: 100%;
+  padding: 10px 10px;
+  box-sizing: border-box;
+  
+}
+.back-ground label{
+   font-size: 20px;
+  
+}
+.login-box{
+    width: 25%;
+}
+.create-link:hover{
+    text-decoration: none;
+
+}
+
+
+.task-input{
+    display: flex;
+    padding: 20px;
+}
+.task-list{
+    display: flex;
+  
+    flex-direction: row;
+    background-color: black;
+    color:salmon;
+    margin:10px;
+    padding:15px;
+    height: 36px;
+    width: 530px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+   
+
+.header{
+    position:absolute;
+    top:20px;
+    left:80%
+}
+.remove-button{
+    background-color: black;
+    border: none;
+    margin-left: 200px;
+    display:flex;
+    height:25px;
+    width:25px;
+    align-items: center;
+    justify-content: center;
+}
+.remove-button:hover{
+    color:rgb(245, 23, 53);
+}
+
+@media (max-width:500px)
+{
+    .back-ground{
+        background-image:url('https://media.istockphoto.com/photos/white-lines-and-spheres-picture-id1135638647?b=1&k=20&m=1135638647&s=170667a&w=0&h=j32QwPBMCmdX9ViKWvitis6N3l3Wl-lBEl1Ut9ImiBk=');
+       background-size: cover;
+       display:flex;
+       height:100vh;
+       width: 50vh;
+       align-items: center;
+       justify-content: space-evenly;
+      
+   }
+   .login-box{
+    width: 60%;
+}
+.task-input{
+    display: flex;
+    padding: 20px;
+    
+    
+    height: 85px;
+    width: 340px;
+    margin-left: 50px;
+
+   
+   
+
+}
+.task-box{
+    width: 451px;
+    height: 540px;
+    /* overflow:scroll; */;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: flex-end;
+
+}
+.remove-button{
+    background-color: black;
+    border: none;
+    
+    margin-left: 0px;
+
+    display:flex;
+    height:25px;
+    width:25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.task-list{
+    display: flex;
+  
+    flex-direction: row;
+    background-color: black;
+    color:salmon;
+    margin:10px;
+    padding:15px;
+    height: 50px;
+width: 339px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    
+}
+.header{
+    position:absolute;
+    top:20px;
+    left:80%;
+}
+.text-area{
+    width:80%;
+}
+}
